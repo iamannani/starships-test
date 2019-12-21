@@ -1,6 +1,6 @@
 ## About The Project
 
-As Flask project that exposes a REST API endpoint. When called via the GET method,
+A Flask project that exposes a REST API endpoint. When called via the GET method,
 this endpoint should retrieve a list of all starships from the Star Wars movies (provided by
 SWAPI), sorted by the hyperdrive rating.
 
@@ -21,13 +21,13 @@ git clone
 cd starships-test
 ```
 
-- instal VirtualEnv
+- install VirtualEnv
 
 ```sh
 pip install virtualenv
 ```
 
-- Create a virtualenv folder and ectivate it
+- Create a virtualenv folder and activate it
 
 ```sh
 python3 -m venv venv/
@@ -49,7 +49,8 @@ python app.py
 ### Deployment
 
 - Heroku
-  You need Heroku CLI you can install iy by:
+
+  You need Heroku CLI you can install it by:
 
 ```sh
 sudo snap install --classic heroku
